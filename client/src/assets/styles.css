@@ -1,0 +1,37 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center align text */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Margins and paddings */
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
